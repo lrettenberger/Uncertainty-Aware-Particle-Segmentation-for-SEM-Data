@@ -1,6 +1,14 @@
 # Machine-Learning-Particle-Morphology-Estimation-Data
 
-- Download `High_Mag_Source_Files.zip`  and `Low_Mag_Source_Files.zip` from [https://osf.io/f2y8w/]([https://website-name.com](https://osf.io/f2y8w/))
+
+## Install
+
+- Install [anaconda>=4.12.0](https://www.anaconda.com/download/)
+- Create conda environment with `conda create --name <insert your env name> --file requirements.txt`
+- Activate conda environment with `conda activate <insert your env name>`
+
+## Usage
+- Download `High_Mag_Source_Files.zip`  and `Low_Mag_Source_Files.zip` from [https://osf.io/f2y8w/](https://osf.io/f2y8w/)
 - Unzip both zips in this directory
 - Execute `prepare_raw_data.py`
 - Execute `prepare_training_splits_high_magnification.py`
